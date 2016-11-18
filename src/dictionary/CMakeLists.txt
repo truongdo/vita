@@ -1,0 +1,5 @@
+add_library(dict SHARED dictionary.cpp)
+add_executable (test_dictionary test_dictionary.cpp)
+target_link_libraries(dict LINK_PUBLIC text_util)
+target_link_libraries(test_dictionary LINK_PUBLIC text_util dict)
+target_include_directories (dict PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

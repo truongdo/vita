@@ -1,0 +1,9 @@
+models/
+build/
+data/
+run/
+test/
+*.swp
+src/vncommon_py/vncommon.py
+*.so
+doc

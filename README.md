@@ -84,7 +84,7 @@ ie^nz-sil+xx=xx@0-0/A:4_3/B:xx-1@0-0&0-0/C:xx+0/D:V-8/E:xx-1/F:xx-0/G:10-2/H:1=1
 ```
 
 Output format:
-Please read `doc/label/lab_format.pdf`
+Please read `doc/lab_format.pdf`
 
 # Citation #
 Please use the following Bibtex when you want to cite `vita`:

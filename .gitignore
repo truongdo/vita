@@ -6,4 +6,3 @@ test/
 *.swp
 src/vncommon_py/vncommon.py
 *.so
-doc

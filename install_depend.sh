@@ -17,7 +17,7 @@ if [[ ! -d liblbfgs-1.10 ]];then
 fi
 
 if [[ ! -d crfsuite-0.12 ]];then
-    git clone https://github.com/truongdq54/crfsuite.git
+    git clone https://github.com/truongdo/crfsuite.git
     cd crfsuite
     automake
     ./configure --prefix=`pwd`/installed --with-liblbfgs=$root/build/liblbfgs-1.10/installed
